@@ -16,6 +16,7 @@ service TSRestaurantService {
     order_model.TRListOrder listOrderByPage(order_model.TPListOrder param);
     order_model.TRListOrder listOrder(order_model.TPListOrder param);
     order_model.TROrder getOrderById(string orderId);
+    i32 closeOrderById(string orderId);
 
     product_model.TRListProduct listProductByPage(product_model.TPListProduct param);
     product_model.TRListProduct listProduct(product_model.TPListProduct param);
