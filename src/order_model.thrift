@@ -19,8 +19,9 @@ struct TPOrder {
     14: i32 district;
     15: string address;
     16: string tel;
-    17: i64 createTime;
-    18: i64 updateTime;
+    17: i32 restaurantId;
+    18: i64 createTime;
+    19: i64 updateTime;
 }
 
 struct TPListOrder {
@@ -45,8 +46,9 @@ struct TROrder {
     14: i32 district;
     15: string address;
     16: string tel;
-    17: i64 createTime;
-    18: i64 updateTime;
+    17: i32 restaurantId;
+    18: i64 createTime;
+    19: i64 updateTime;
 }
 
 struct TRListOrder {
